@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harmony Homeware — Thoughtful Living, Beautifully Made</title>
+  <meta name="description" content="Harmony Homeware — modern homeware, décor, dining and kitchen essentials designed for beautiful everyday living." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="announcement">Complimentary delivery on orders over LKR 20,000 <span>•</span> Curated for modern living</div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Harmony Homeware home">
+        <img src="./logo.png" alt="Harmony Homeware" />
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
+
+      <nav class="main-nav">
+        <a href="#top">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#shop" class="icon-link" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+        </a>
+        <a href="#shop" class="icon-link" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5-8.8 10.4-8.8 10.4S3.2 13.8 3.2 8.8A4.7 4.7 0 0 1 12 6a4.7 4.7 0 0 1 8.8 2.8Z"></path></svg>
+        </a>
+        <a href="#shop" class="cart-pill">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l1.6 10.1a2 2 0 0 0 2 1.7h7.8a2 2 0 0 0 1.9-1.5L20 8H6"></path><circle cx="9" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+          Cart <span class="cart-count">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HOME • LIVING • HARMONY</p>
+          <h1>Make space for<br><em>beautiful living.</em></h1>
+          <p class="hero-text">Thoughtful homeware, calm colours and timeless pieces for the spaces you live in every day.</p>
+          <div class="hero-buttons">
+            <a href="#shop" class="btn btn-primary">Shop the collection <span>→</span></a>
+            <a href="#collections" class="btn btn-ghost">Explore rooms</a>
+          </div>
+          <div class="hero-notes">
+            <div><strong>01</strong><span>Curated everyday pieces</span></div>
+            <div><strong>02</strong><span>Designed for lasting use</span></div>
+            <div><strong>03</strong><span>Simple, elegant spaces</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image hero-image-main"></div>
+          <div class="hero-card">
+            <span>New season</span>
+            <strong>Quiet Luxury</strong>
+            <a href="#shop">Discover →</a>
+          </div>
+          <div class="hero-orbit"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section section-pad" id="shop">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SHOP BY SPACE</p>
+            <h2>Everything your home needs.</h2>
+          </div>
+          <a href="#featured" class="text-link">View all products <span>↗</span></a>
+        </div>
+        <div class="category-grid">
+          <a class="category-card tall" href="#featured"><div class="category-bg kitchen"></div><div class="category-overlay"><small>01</small><h3>Kitchen</h3><span>Cook beautifully →</span></div></a>
+          <a class="category-card" href="#featured"><div class="category-bg living"></div><div class="category-overlay"><small>02</small><h3>Living</h3><span>Settle in →</span></div></a>
+          <a class="category-card" href="#featured"><div class="category-bg dining"></div><div class="category-overlay"><small>03</small><h3>Dining</h3><span>Gather together →</span></div></a>
+          <a class="category-card" href="#featured"><div class="category-bg bedroom"></div><div class="category-overlay"><small>04</small><h3>Bedroom</h3><span>Rest well →</span></div></a>
+          <a class="category-card" href="#featured"><div class="category-bg decor"></div><div class="category-overlay"><small>05</small><h3>Décor</h3><span>Add personality →</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-banner" id="collections">
+      <div class="feature-image"></div>
+      <div class="feature-content">
+        <p class="eyebrow">THE HARMONY EDIT</p>
+        <h2>A softer way to<br>style your home.</h2>
+        <p>Natural textures, sculptural shapes and warm neutrals come together in a collection made to feel collected — never crowded.</p>
+        <a href="#featured" class="btn btn-light">Shop The Edit <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="products-section section-pad" id="featured">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CURATED FOR YOU</p>
+            <h2>Featured pieces.</h2>
+          </div>
+          <div class="filter-links"><a class="active" href="#featured">New In</a><a href="#featured">Best Sellers</a><a href="#featured">Under LKR 10K</a></div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-media"><span class="tag">NEW</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=900&q=85" alt="Minimal ceramic vase" /></div>
+            <div class="product-info"><p>Ceramic Collection</p><h3>Forma Stone Vase</h3><div class="product-meta"><span>LKR 7,950</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="tag muted-tag">BEST SELLER</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=900&q=85" alt="Warm modern living room styling" /></div>
+            <div class="product-info"><p>Living Collection</p><h3>Luna Textured Cushion</h3><div class="product-meta"><span>LKR 4,500</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="tag">NEW</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=900&q=85" alt="Warm bedside lamp" /></div>
+            <div class="product-info"><p>Lighting</p><h3>Halo Table Lamp</h3><div class="product-meta"><span>LKR 12,900</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="tag sale-tag">-15%</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=900&q=85" alt="Wooden serving board and kitchenware" /></div>
+            <div class="product-info"><p>Kitchen Collection</p><h3>Atelier Serving Board</h3><div class="product-meta"><span><del>LKR 6,900</del> LKR 5,865</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=85" alt="Neutral modern armchair" /></div>
+            <div class="product-info"><p>Furniture</p><h3>Linea Accent Chair</h3><div class="product-meta"><span>LKR 45,000</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1583845112203-454c4f8b2f5e?auto=format&fit=crop&w=900&q=85" alt="Neutral decorative tray" /></div>
+            <div class="product-info"><p>Décor</p><h3>Arc Decorative Tray</h3><div class="product-meta"><span>LKR 6,750</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><span class="tag">NEW</span><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=900&q=85" alt="Modern dining table setup" /></div>
+            <div class="product-info"><p>Dining Collection</p><h3>Terra Dinner Set</h3><div class="product-meta"><span>LKR 18,500</span><span>★★★★★</span></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-media"><button aria-label="Add to wishlist">♡</button><img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=900&q=85" alt="Soft neutral throw blanket" /></div>
+            <div class="product-info"><p>Bedroom</p><h3>Cloud Woven Throw</h3><div class="product-meta"><span>LKR 8,250</span><span>★★★★★</span></div></div>
+          </article>
+        </div>
+        <div class="center"><a href="#featured" class="btn btn-outline">Browse all products</a></div>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" id="story">
+      <div class="container story-grid">
+        <div class="story-copy">
+          <p class="eyebrow">WHY HARMONY</p>
+          <h2>Designed to live with you.</h2>
+          <p>We believe a beautiful home is not about having more. It is about choosing pieces that work together, feel good to use and make everyday moments a little more considered.</p>
+          <div class="story-list">
+            <div><span>01</span><div><strong>Curated, not cluttered</strong><p>Pieces selected to complement contemporary homes.</p></div></div>
+            <div><span>02</span><div><strong>Made for everyday moments</strong><p>Useful details and comfortable forms come first.</p></div></div>
+            <div><span>03</span><div><strong>Style that lasts</strong><p>Timeless palettes that stay relevant beyond a season.</p></div></div>
+          </div>
+          <a href="#contact" class="text-link">Read our story <span>↗</span></a>
+        </div>
+        <div class="story-image-wrap"><div class="story-image"></div><div class="story-caption"><span>HARMONY HOMEWARE</span><strong>Home, in balance.</strong></div></div>
+      </div>
+    </section>
+
+    <section class="service-strip">
+      <div class="container service-grid">
+        <div><span class="service-icon">✦</span><div><strong>Thoughtful quality</strong><p>Pieces selected for daily living.</p></div></div>
+        <div><span class="service-icon">↗</span><div><strong>Islandwide delivery</strong><p>Carefully packed and delivered.</p></div></div>
+        <div><span class="service-icon">◌</span><div><strong>Easy support</strong><p>Our team is here when you need us.</p></div></div>
+        <div><span class="service-icon">♡</span><div><strong>Made to be loved</strong><p>Beautiful objects with purpose.</p></div></div>
+      </div>
+    </section>
+
+    <section class="testimonial-section section-pad">
+      <div class="container">
+        <div class="testimonial-grid">
+          <div>
+            <p class="eyebrow">FROM OUR CUSTOMERS</p>
+            <h2>Small details.<br>Big difference.</h2>
+          </div>
+          <div class="quote-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>“The pieces feel premium without trying too hard. Everything I ordered instantly made the room feel more considered.”</blockquote>
+            <p>— Ayesha M. <span>Verified customer</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="container newsletter-inner">
+        <div><p class="eyebrow">STAY INSPIRED</p><h2>Beautiful ideas, delivered.</h2><p>New arrivals, home styling ideas and thoughtful offers — sent occasionally.</p></div>
+        <form class="newsletter-form" action="#" onsubmit="return false;">
+          <label><span class="sr-only">Email address</span><input type="email" placeholder="Your email address" /></label>
+          <button class="btn btn-light" type="submit">Subscribe <span>→</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand"><img src="assets/logo.png" alt="Harmony Homeware" /><p>Thoughtful homeware for beautiful everyday living.</p></div>
+      <div><h4>Shop</h4><a href="#featured">New arrivals</a><a href="#featured">Best sellers</a><a href="#shop">Kitchen</a><a href="#shop">Living</a></div>
+      <div><h4>Explore</h4><a href="#collections">Collections</a><a href="#story">Our story</a><a href="#contact">Contact</a><a href="#contact">FAQ</a></div>
+      <div><h4>Contact</h4><a href="mailto:hello@harmonyhomeware.lk">hello@harmonyhomeware.lk</a><a href="tel:+94110000000">+94 11 000 0000</a><p>Colombo, Sri Lanka</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Harmony Homeware. All rights reserved.</span><span>Privacy · Terms · Shipping</span></div>
+  </footer>
+</body>
+</html>
